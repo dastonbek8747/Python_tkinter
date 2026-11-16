@@ -1,19 +1,41 @@
-# 🚧 Python Tkinter
+# Python Tkinter Examples
 
-> ⚠️ **Bu repo hozircha bo'sh** — hali kod qo'shilmagan.
+> Two small desktop applications built with Tkinter: a calculator and a to-do list.
 
-**Tkinter** bilan desktop ilovalar yaratish bo'yicha loyiha uchun ochilgan repo.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
----
+## Apps
 
-## 📌 Reja
+| App | File | What it does |
+|---|---|---|
+| Calculator | `apps/calculator.py` | Buttons, a display and safe expression evaluation. |
+| To-do list | `apps/todo.py` | Add tasks, list them, delete the selected task. |
 
-- [ ] Tkinter o'rganish
-- [ ] Namuna ilovalar
-- [ ] Kodni joylash
+## Requirements
 
----
+Tkinter ships with Python. On some Linux distributions install it separately:
 
-## 📄 Litsenziya
+```bash
+sudo apt-get install python3-tk
+```
 
-Litsenziya ko'rsatilmagan.
+## Run
+
+```bash
+git clone https://github.com/dastonbek8747/Python_tkinter.git
+cd Python_tkinter
+
+python apps/calculator.py
+python apps/todo.py
+```
+
+## What I Practised
+
+- Widget layout with `grid` and `pack`.
+- Event binding (button commands, the Enter key).
+- Simple state handling in a desktop UI.
+
+## License
+
+MIT © 2026 Doston Sultonov.
